@@ -2,21 +2,42 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/index.css">
   <title>Motor Info</title>
 </head>
 <body>
   <div class="dark-overlay">
-    <div id="intro">
-      <h1>Welcome to Motor Info</h1>
-      <p class="mt-5 lead text-italic text-white">Your SAFETY our CONCERN</p>
+    <div id="first" class="animated">
+      <div id="intro">
+        <h1 class="animated fadeInDown delay-2.6s">Welcome to Motor Info</h1>
+        <p class="mt-5 lead text-italic text-white">Your SAFETY our CONCERN</p>
+      </div>
+      <div id="intro-buttons">
+        <button id="sign-up">Log In</button>
+        <button id="guest">Continue as Guest</button> 
+      </div>
     </div>
-    <div id="intro-buttons">
-      <button id="sign-up">Sign-Up</button>
-      <button id="guest">Continue as Guest</button>
+    <div id="log">
+      <div class="card w-25 text-center">
+          <div class="card-body">
+            <h3 class="animated pulse infinite">Login</h3>
+            <form action="pages/home-page.html">
+                <div class="form-group my-3">
+                    <input class="my-3 form-control form-control-lg" placeholder="Email" type="email">
+                </div>
+                <div class="form-group my-3">
+                    <input class="my-3 form-control form-control-lg" placeholder="Password" type="password">
+                </div>
+                <input id="logged" type="submit" value="Go" class="btn btn-outline-light btn-block">
+            </form>
+          </div>
+        </div>
     </div>
   </div>
-
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

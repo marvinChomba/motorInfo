@@ -4,18 +4,11 @@ body {
   background-position-y: -1em;
   background-repeat: no-repeat; 
 }
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   font-family: Cinzel Decorative;
+  font-size: bold;
 }
 #intro {
   text-align: center;
@@ -37,11 +30,11 @@ button {
   margin: 10px;
 
 }
-#sign-up:hover {
+#sign-up:hover,#logged:hover {
   color: #de1f26;
   background: white;
 }
-#sign-up {
+#sign-up,#logged {
   color: white;
   background: #de1f26;
   border: 1px solid #de1f26;
@@ -54,4 +47,19 @@ button {
 #guest:hover {
   color: black;
   background: white;
+}
+#log {
+  display: none;
+}
+.card {
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 0;
+}
+
+@media (max-width:500px) {
+  body {
+    background-position-y: 50%;
+    background-size: cover;
+  }
 }
