@@ -1,0 +1,47 @@
+body{
+  background-image: url("../images/la.jpeg");
+}
+.col{
+  background-color: aliceblue;
+}
+#sidebar{
+  background-color:grey;
+}
+aside li{
+  margin: 0;
+  position: relative;
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+aside a{
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  transition: width 0.5s;
+  box-sizing: border-box;
+}
+aside li:hover a{
+  width: 120px;
+}
+aside li a .fa{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #ffff;
+  border-right: 2px solid #A6BFBE;
+
+}
+aside li a span{
+  color: aliceblue;
+  margin-left: 10px;
+}
