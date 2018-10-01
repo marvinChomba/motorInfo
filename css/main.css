@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/la.jpeg");
+  background-image: url("../images/la1.jpeg");
   background-size: cover;
   background-position-y: -1em;
   background-repeat: no-repeat; 
@@ -10,5 +10,47 @@ body {
   left: 0;
   width: 100%;
   min-height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+#intro {
+  text-align: center;
+  margin:0 auto;
+  margin-top: 10%;
+
+}
+#intro p {
+  font-style: italic;
+}
+#intro-buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 10px;
+
+}
+#sign-up:hover {
+  color: #de1f26;
+  background: white;
+}
+#sign-up {
+  color: white;
+  background: #de1f26;
+  border: 1px solid #de1f26;
+}
+#guest {
+  color: white;
+  background: black;
+  border: 1px solid #000;
+}
+#guest:hover {
+  color: black;
+  background: white;
 }
