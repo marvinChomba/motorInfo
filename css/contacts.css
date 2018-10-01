@@ -5,7 +5,7 @@ body{
   background-color: aliceblue;
 }
 #sidebar{
-  background-color:aliceblue;
+  background-color:grey;
 }
 aside li{
   margin: 0;
@@ -42,6 +42,6 @@ aside li a .fa{
 
 }
 aside li a span{
-  color: rgb(35, 39, 223);
+  color: aliceblue;
   margin-left: 10px;
 }
