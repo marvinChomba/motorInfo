@@ -1,6 +1,3 @@
-/* body{
-  background-image: url("../images/la.jpeg");
-} */
 .col{
   background-color: aliceblue;
 }
@@ -10,7 +7,6 @@
   top:-100px;
 }
 #sidebar{
-  /* background-color:grey; */
   position:sticky;
   width:50px;
   top:200px;
@@ -23,9 +19,6 @@ aside li{
   display: block;
   width: 150px;
   height: 40px;
-  /* line-height: 0px; */
-  /* text-align: center; */
-  /* font-size: 16px; */
 }
 aside a{
   text-decoration: none;
@@ -101,14 +94,12 @@ div .far{
 }
  @media only screen and(max-width:780px){
   #sidebar{
-    /* background-color:grey; */
     margin-left:-250px;
     margin-top:-420px;
     z-index:5;
   }
 } @media only screen and(min-width:480px){
   #sidebar{
-    /* background-color:grey; */
     margin-left:auto;
     margin-top:auto;
     z-index:5;

@@ -1,9 +1,11 @@
-/* .bgimg {
-    background-image: url('images/parking3.jpg');
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('../images/parking4.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
-
+}
 
 /* Add a black background color to the top navigation */
 .topnav {

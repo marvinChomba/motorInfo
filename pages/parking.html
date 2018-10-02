@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/parking.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <title>Motor Info</title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home">Home</a>
+    <a class='active' href="#parking">Parking Info</a>
+    <a href="#nduthi">Nduthi Restrictions</a>
+    <a href="#traffic-updates">Traffic Updates</a>
+    <a href="#driving-tips">Driving Tips</a>
+    <a href="#our-story">Our Story</a>
+  </div>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
+    <div class="w3-display-center w3-padding-large w3-xlarge">
+      Moto Info
+    </div>
+    <div class="w3-display-middle">
+      <h1 class="w3-jumbo w3-animate-top">MOTOR INFO PARKING</h1>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <p class="w3-large w3-center">Your Safety Our Concern</p>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+      Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">moto info</a>
+    </div>
+  </div>
+  <form class="w3-container w3-card-4">
+    <h1>Select Your Location</h1>
+    <select class="w3-select" name="option">
+      <option value="" disabled selected>Pick Location</option>
+      <option value="1">CBD</option>
+      <option value="2">Moi Avenue</option>
+      <option value="3">Tom Mboya Street</option>
+      <option value="3">Lavington</option>
+      <option value="3">Karen</option>
+      <option value="3">Runda</option>
+      <option value="3">Buruburu</option>
+      <option value="3">Kahawa Sukari</option>
+    </select>
+  </form>
+  <p><button class="w3-btn w3-black">Select</button></p>
+  <div class="w3-container">
+    <h2>Parking Info</h2>
+    <p>The navigation bar below allows you to see the charges and time you as our moto info user can have.</p>
+    <p><strong>Tip:</strong> For any damages on your contact us:</p>
+  </div>
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button" onclick="openTime('8:00am-6:00pm')">Working Hours</button>
+    <button class="w3-bar-item w3-button" onclick="openTime('6:00pm-10:00pm')">Limited Parking</button>
+    <button class="w3-bar-item w3-button" onclick="openTime('10:00pm-6:00am')">Unlimited Parking</button>
+  </div>
+  <div id="WorkingHours" class="w3-container w3-display-container time">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>Working Hours</h2>
+    <p>Parking fee is 300ksh.</p>
+  </div>
+  <div id="LimitedParking" class="w3-container w3-display-container time">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>Limited Parking</h2>
+    <p>For this ten hours parking is 100ksh.</p>
+  </div>
+  <div id="Unlmited Parking" class="w3-container w3-display-container time">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>Unlimited Parking</h2>
+    <p>The parking is free of charge.</p>
+  </div>
+</body>
+</html>
+
+
