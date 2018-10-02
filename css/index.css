@@ -1,8 +1,24 @@
 body {
-  background-image: url("../images/la.jpeg");
+  background-image: url("../images/back.jpg");
   background-size: cover;
   background-position-y: -1em;
   background-repeat: no-repeat; 
+}
+.icon {
+  background: #de1f26;
+  display: block-inline;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -11%;
+  left: 38%;
+}
+.icon i {
+  font-size: 22px;
 }
 h1 {
   color: white;
@@ -52,9 +68,26 @@ button {
   display: none;
 }
 .card {
+  padding-top: 15px;
   margin: 0 auto;
   margin-top: 10%;
   border-radius: 0;
+}
+input[type=password],
+input[type=email] {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 85%;
+  font-size: 1.1em;
+}
+.form-group {
+  margin-top: 20px;
+}
+input[type=password]:hover,
+input[type=email]:hover {
+  border-bottom: 2px solid #de1f26;
 }
 
 @media (max-width:500px) {
