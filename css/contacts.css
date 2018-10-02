@@ -4,18 +4,28 @@
 .col{
   background-color: aliceblue;
 }
-#sidebar{
+.col-sm-5{
   background-color:grey;
+  position:relative;
+  top:-100px;
+}
+#sidebar{
+  /* background-color:grey; */
+  position:sticky;
+  width:50px;
+  top:200px;
+  z-index: 5;
 }
 aside li{
-  margin: 0;
+  margin-left: -40px;
   position: relative;
+  left:0px;
   display: block;
   width: 150px;
   height: 40px;
-  line-height: 40px;
-  text-align: center;
-  font-size: 16px;
+  /* line-height: 0px; */
+  /* text-align: center; */
+  /* font-size: 16px; */
 }
 aside a{
   text-decoration: none;
@@ -56,6 +66,51 @@ aside li a .fab{
   background-color: #e4405f;
 }
 aside li a span{
-  color: aliceblue;
+  color: blueviolet;
   margin-left: 10px;
+  font-weight:bold;
 }
+#required:after{
+  content: " *";
+  font-weight:bold;
+  color:red;
+}
+label{
+  font-weight:bold;
+}
+.rating{
+  position:relative;
+  left: 200px;
+}
+.map{
+  position:relative;
+  padding: 10px;
+  left:50px;
+  top:-100px;
+  background-color: aliceblue;
+}
+div .far{
+  padding:5px;
+  color:green;
+  height:auto;
+}
+.sticky{
+  position:sticky;
+  top:0px;
+  z-index: 10;
+}
+ @media only screen and(max-width:780px){
+  #sidebar{
+    /* background-color:grey; */
+    margin-left:-250px;
+    margin-top:-420px;
+    z-index:5;
+  }
+} @media only screen and(min-width:480px){
+  #sidebar{
+    /* background-color:grey; */
+    margin-left:auto;
+    margin-top:auto;
+    z-index:5;
+  }
+} 
