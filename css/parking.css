@@ -1,0 +1,38 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('../images/parking4.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#000000;
+  overflow: hidden;
+
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#CD0000;
+  color:white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
