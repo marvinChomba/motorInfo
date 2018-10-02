@@ -1,6 +1,6 @@
-body{
+/* body{
   background-image: url("../images/la.jpeg");
-}
+} */
 .col{
   background-color: aliceblue;
 }
@@ -31,15 +31,29 @@ aside a{
 aside li:hover a{
   width: 120px;
 }
-aside li a .fa{
+aside li a .fab{
   width: 30px;
-  height: 30px;
+  height: 80px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
   color: #ffff;
   border-right: 2px solid #A6BFBE;
-
+}
+.fa-facebook{
+  background-color:#3b5999;
+}
+.fa-twitter-square{
+  background-color:#55acee;
+}
+.fa-google-plus{
+  background-color: #dd4b39;
+}
+.fa-linkedin{
+  background-color: #0077B5;
+}
+.fa-instagram{
+  background-color: #e4405f;
 }
 aside li a span{
   color: aliceblue;
