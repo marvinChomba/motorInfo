@@ -1,3 +1,33 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#000000;
+  overflow: hidden;
+
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 70px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#CD0000;
+  color:white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .col{
   background-color: aliceblue;
 }
@@ -87,21 +117,28 @@ div .far{
   color:green;
   height:auto;
 }
-.sticky{
-  position:sticky;
-  top:0px;
-  z-index: 10;
+.wrapper {
+  display: inline-block;
+  font-size: 70px;
 }
- @media only screen and(max-width:780px){
-  #sidebar{
-    margin-left:-250px;
-    margin-top:-420px;
-    z-index:5;
+.wrapper * {
+  float: right;
+}
+input {
+  display: none;
+}
+
+input:checked ~ label {
+  color:yellow;
+}
+ @media only screen and (max-width:780px){
+  .map{
+    width:device-width;
+    position:relative;
+    padding-top: 10px;
+    left:50px;
+    top:-100px;
+    background-color: aliceblue;
   }
-} @media only screen and(min-width:480px){
-  #sidebar{
-    margin-left:auto;
-    margin-top:auto;
-    z-index:5;
-  }
+} @media only screen and (min-width:480px){
 } 
