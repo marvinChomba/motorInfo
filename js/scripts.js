@@ -11,24 +11,24 @@ $(document).ready(function(){
     .fadeIn(5)
     .appendTo('#slideshow');
   }, 3000)
-  $("#create-acc-button").click(function(event) {
+  $("#to-sign-up").click(function(event) {
     event.preventDefault();
     $("#log").hide();
     $("#signUp").show();
   })
-  $("#go-to-home").click(function(event) {
-    event.preventDefault();
-    var userFirstName = $("#first-name").val();
-    var userSecondName = $("#second-name").val();
-    var email = $("#sign-up-email").val();
-    var firstPass = $("#first-pass").val();
-    var secondPass = $("#second-pass").val();
-    if(userFirstName.length === 0 || userSecondName.length === 0 || email.length === 0 || firstPass.length === 0 || secondPass.length === 0) {
-      $("#fill-sign").html("<p>Please <span class='plea'>FILL</span> all the fields")
-    } else {
-
-    }
-    alert("Hey");
+  $("#recover-btn").click(function() {
+    $("#log").hide();
+    $("#recover").show();
+  })
+  $("#recoverBtn").click(function(event) {
+    event.preventDefault()
+    // var email = $("#recover input[type=email]").val();
+    // $("form").attr("action","https://formspree.io/" + email);
+    $("#recover").hide();
+    $("#recover-message").show();
+  })
+  $("#backBtn").click(function() {
+    location.reload();
   })
 })
 

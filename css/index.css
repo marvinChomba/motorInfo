@@ -54,11 +54,20 @@ button {
   margin: 10px;
 
 }
-#sign-up:hover,#logged:hover {
+#sign-up:hover,.logged:hover {
   color: #4CAF50;
   background: white;
 }
-#sign-up,#logged {
+.logged:hover {
+  color: #4CAF50;
+  background: white;
+}
+.logged {
+  color: white;
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+#sign-up {
   color: white;
   background: #4CAF50;
   border: 1px solid #4CAF50;
@@ -71,6 +80,9 @@ button {
 #guest:hover {
   color: black;
   background: white;
+}
+#recover {
+  display: none;
 }
 #log {
   display: none;
@@ -108,6 +120,15 @@ input[type=text]:hover {
   border-bottom: 1px solid #4CAF50;
 }
 #signUp {
+  display: none;
+}
+.log-btn {
+  color: black;
+}
+.log-btn:hover {
+  color: #4CAF50;
+}
+#recover-message {
   display: none;
 }
 
