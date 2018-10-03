@@ -8,7 +8,8 @@ body {
   background-repeat: no-repeat; 
 }
 .icon {
-  background: #de1f26;
+  background: #4CAF50;
+  color: white;
   display: block-inline;
   width: 60px;
   height: 60px;
@@ -17,7 +18,11 @@ body {
   justify-content: center;
   border-radius: 50%;
   position: absolute;
-  top: -11%;
+  top: -9%;
+  left: 40%;
+}
+#signUp .icon {
+  top: -6%;
   left: 40%;
 }
 .icon i {
@@ -49,14 +54,23 @@ button {
   margin: 10px;
 
 }
-#sign-up:hover,#logged:hover {
-  color: #de1f26;
+#sign-up:hover,.logged:hover {
+  color: #4CAF50;
   background: white;
 }
-#sign-up,#logged {
+.logged:hover {
+  color: #4CAF50;
+  background: white;
+}
+.logged {
   color: white;
-  background: #de1f26;
-  border: 1px solid #de1f26;
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+#sign-up {
+  color: white;
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
 }
 #guest {
   color: white;
@@ -66,6 +80,9 @@ button {
 #guest:hover {
   color: black;
   background: white;
+}
+#recover {
+  display: none;
 }
 #log {
   display: none;
@@ -77,8 +94,16 @@ button {
   border-radius: 0;
   box-shadow: 0px -1px 22px -3px rgba(0,0,0,0.75);
 }
+#signUp .card {
+  padding-top: 15px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 0;
+  box-shadow: 0px -1px 22px -3px rgba(0,0,0,0.75);
+}
 input[type=password],
-input[type=email] {
+input[type=email],
+input[type=text] {
   border: 0;
   border-radius: 0;
   border-bottom: 2px solid black;
@@ -106,8 +131,21 @@ input[type=email] {
   margin-top: 20px;
 }
 input[type=password]:hover,
-input[type=email]:hover {
-  border-bottom: 2px solid #de1f26;
+input[type=email]:hover,
+input[type=text]:hover {
+  border-bottom: 1px solid #4CAF50;
+}
+#signUp {
+  display: none;
+}
+.log-btn {
+  color: black;
+}
+.log-btn:hover {
+  color: #4CAF50;
+}
+#recover-message {
+  display: none;
 }
 
 @media (max-width:500px) {

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='../css/restrictions.css' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="../js/scripts.js"></script>
+  <title>MotorInfo</title>
+</head>
+<body>
+  <div class="topnav sticky-top">
+    <a href='home-page.html'>Home</a>
+    <a href='parking.html'>Parking Info</a>
+    <a class="active" href='restrictions.html'>Nduthi Restrictions</a>
+    <a href="home-page.html#traffic1">Traffic Updates</a>
+    <a href="home-page.html#drivingt1">Road Safety</a>
+    <a href="about.html">About Us</a>
+    <a href="contacts.html">Contact Us</a>
+  </div>
+  <section id='image'>
+      <div>
+        <img class='bg' src="../images/restriction-pic1.jpg" alt='Nairobi skyline'>
+      </div>
+  </section>
+  <section id='text'>
+    <div class="container-fluid">
+      <div class="card">
+        <div class="row">
+          <select class="locations-to-select" name="option">
+            <option value="" disabled selected>Select the location you'd like to see</option>
+            <option value="2">Kaunda Street</option>
+            <option value="2">Muindi Mbingu Street</option>
+            <option value="2">Mama Ngina Street</option>
+            <option value="1">Kigali Road</option>
+            <option value="1">Tubman Road</option>
+            <option value="1">Banda Street</option>
+            <option value="2">Standard Street</option>
+          </select>
+        </div>
+        <div id='maps' class='row'>
+          <div class='col-md-6'>
+            <br><img src='../images/restricted-areas1.jpg' alt='Image of restricted areas around CBD' id='restricted1'>
+            <br><img src='../images/restricted-areas2.jpg' alt='Image of restricted areas around CBD' id='restricted2'>
+          </div>
+          <div class="col-md-6">
+            <br><img src='../images/overview-pic.jpg' alt='Image of overview of CBD' id='overview'>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
