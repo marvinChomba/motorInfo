@@ -1,3 +1,5 @@
+var emailRegex = /([a-z0-9-_\.]+)@([a-z]+)\.(\w+)(\.[a-z]+)?/ig
+var passAndUsername = /^(\w){6,}$/i
 $(document).ready(function(){
   $("#sign-up").click(function(event) {
     $("#log").show();
@@ -22,13 +24,18 @@ $(document).ready(function(){
   })
   $("#recoverBtn").click(function(event) {
     event.preventDefault()
-    // var email = $("#recover input[type=email]").val();
-    // $("form").attr("action","https://formspree.io/" + email);
     $("#recover").hide();
     $("#recover-message").show();
   })
   $("#backBtn").click(function() {
     location.reload();
+  })
+  $("#LOG-IN").click(function(event) {
+    var logEmail = $("#log input[type=email]").val();
+    var logPass = $("#log input[type=password]").val();
+    if(emailRegex.test(logEmail) && passAndUsername.test(logPass) && logEmail.length !== 0 && logPass.length !== 0) {
+      
+    }
   })
 })
 
