@@ -1,10 +1,14 @@
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
+body,h1 {
+  font-family: "Raleway", sans-serif
+}
+body, html {
+  height: 100%
+}
 .bgimg {
-    background-image: url('../images/parking6.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
+  background-image: url('../images/parking6.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Add a black background color to the top navigation */
@@ -12,7 +16,7 @@ body, html {height: 100%}
   background-color:#000000;
   overflow: hidden;
 
-  }
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {

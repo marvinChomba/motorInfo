@@ -1,8 +1,7 @@
-#image{
-    height: 500px;
-    width: 1000px;
+#image {
+  height: 500px;
+  width: 1000px;
 }
-
 #steps{
-    display: none;
+  display: none;
 }
