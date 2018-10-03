@@ -17,8 +17,10 @@
         <p class="mt-5 lead text-italic text-white">Your SAFETY our CONCERN</p>
       </div>
       <div id="intro-buttons">
-        <button id="sign-up">Log In</button>
-        <button id="guest">Continue as Guest</button> 
+        <button id="sign-up" class="button">Log In</button>
+        <form action="pages/home-page.html" class="d-inline-block">
+          <input type="submit" id="guest" class="button" value="Continue as Guest">
+        </form>
       </div>
     </div>
     <div id="log">
@@ -30,10 +32,10 @@
           <h3 class="animate pulse infinite">Login</h3>
           <form action="pages/home-page.html" class="my-4">
             <div class="form-group my-3">
-              <input class="my-3" placeholder="Email" type="email">
+              <input class="my-3" placeholder="Email" type="email" required>
             </div>
             <div class="form-group my-3">
-              <input class="my-3" placeholder="Password" type="password">
+              <input class="my-3" placeholder="Password" type="password" required>
             </div>
             <input type="submit" value="Go" id="LOG-IN" class="btn btn-block logged">
           </form>
@@ -50,23 +52,23 @@
             <i class="fas fa-user-plus"></i>
           </div>
           <h3 class="animate pulse infinite">Sign Up</h3>
-          <form action="pages/home-page.html" class="my-4">
+          <form class="my-4" action="pages/home-page.html">
             <div class="form-group my-3">
-              <input id="first-name" class="my-3" placeholder="First Name" type="text">
+              <input id="first-name" class="my-3" placeholder="First Name" type="text" required>
             </div>
             <div class="form-group my-3">
-              <input id="second-name" class="my-3" placeholder="Second Name" type="text">
+              <input id="second-name" class="my-3" placeholder="Second Name" type="text" required>
             </div>
             <div class="form-group my-3">
-              <input id="sign-up-email" class="my-3" placeholder="Email" type="email">
+              <input id="sign-up-email" class="my-3" placeholder="Email" type="email" required>
             </div>
             <div class="form-group my-3">
-              <input  id="first-pass" class="my-3" placeholder="Password" type="password">
+              <input  id="first-pass" class="my-3" placeholder="Password" type="password" required>
             </div>
             <div class="form-group my-3">
-              <input id="second-pass" class="my-3" placeholder="Confirm Password" type="password">
+              <input id="second-pass" class="my-3" placeholder="Confirm Password" type="password" required>
             </div>
-            <input value="Create Account" id="CREATE" class="btn btn-block logged">
+            <input value="Create Account" type="submit" id="CREATE" class="btn btn-block logged">
           </form>
         </div>
         <p id="fill-sign"></p>
@@ -79,25 +81,13 @@
             <i class="fas fa-user-shield"></i>
           </div>
           <h5 class="mt-4 animate pulse infinite">Change password</h5>
-          <form action="" class="my-4" method="POST">
+          <form class="my-4" action="pages/password.html">
             <div class="form-group my-3">
-              <input class="my-3" placeholder="Email" type="email">
+              <input class="my-3" placeholder="Email" type="email" required>
             </div>
             <input type="submit" value="Change Password" id="recoverBtn" class="btn btn-block logged">
           </form>
           <p class="fill-log"></p>
-        </div>
-      </div>
-    </div>
-    <div id="recover-message">
-      <div class="card w-25 text-center">
-        <div class="card-body">
-          <div class="icon">
-            <i class="fas fa-user-check"></i>
-          </div>
-          <h5 class="mt-4 animate pulse infinite">Nice Work!</h5>
-          <p class="lead">Check your email to change password</p>
-          <button class="btn logged" id="backBtn">Go back</button>
         </div>
       </div>
     </div>
