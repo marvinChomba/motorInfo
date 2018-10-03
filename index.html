@@ -13,7 +13,7 @@
   <div class="dark-overlay">
     <div id="first" class="animated">
       <div id="intro">
-        <h1 class="animated fadeInDown delay-2.6s">Welcome to Motor Info</h1>
+        <h1 class="animated fadeInDown delay-2.6s text-uppercase">Motor Info</h1>
         <p class="mt-5 lead text-italic text-white">Your SAFETY our CONCERN</p>
       </div>
       <div id="intro-buttons">
@@ -37,8 +37,39 @@
             </div>
             <input id="logged" type="submit" value="Go" class="btn btn-outline-light btn-block">
           </form>
+          <a id="create-acc-button" class="d-block text-center black" href="#">Create Account</a>
           <a class="text-center black" href="#">Forgot password?</a>
+          <p class="fill-log"></p>
         </div>
+      </div>
+    </div>
+    <div id="signUp">
+      <div class="card w-25 text-center">
+        <div class="card-body">
+          <div class="icon">
+            <i class="fas fa-user-plus"></i>
+          </div>
+          <h3 class="animate pulse infinite">Sign Up</h3>
+          <form action="pages/home-page.html" class="my-4">
+            <div class="form-group my-3">
+              <input id="first-name" class="my-3" placeholder="First Name" type="text">
+            </div>
+            <div class="form-group my-3">
+              <input id="second-name" class="my-3" placeholder="Second Name" type="text">
+            </div>
+            <div class="form-group my-3">
+              <input id="sign-up-email" class="my-3" placeholder="Email" type="email">
+            </div>
+            <div class="form-group my-3">
+              <input  id="first-pass" class="my-3" placeholder="Password" type="password">
+            </div>
+            <div class="form-group my-3">
+              <input id="second-pass" class="my-3" placeholder="Confirm Password" type="password">
+            </div>
+            <input id="logged" id="go-to-home" value="Create Account" class="btn btn-outline-light btn-block">
+          </form>
+        </div>
+        <p id="fill-sign"></p>
       </div>
     </div>
   </div>
