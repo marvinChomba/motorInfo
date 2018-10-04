@@ -37,5 +37,25 @@ $(document).ready(function(){
       
     }
   })
-})
+  $("#selecter-button").click(function () {
+    $("#ra1").hide();
+    $("#ra2").hide();
+    $("#ra3").hide();
+    var selected = $('#mySelect option:selected').val();
+    $(document).ready(function () {
+      if (selected == 1) {
+        console.log('Yes')
+        $("#ra1").show();
+        $("#ra3").show();
+      } else {
+        console.log('No')
+        $("#ra2").show();
+        $("#ra3").show();
+      }
+    })
+  }
+)})
+
+
+
 

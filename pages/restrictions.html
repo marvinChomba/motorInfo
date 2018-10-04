@@ -30,7 +30,7 @@
     <div class="container-fluid">
       <div class="card">
         <div class="row">
-          <select class="locations-to-select" name="option">
+          <select class="locations-to-select" id='mySelect' name="option">
             <option value="" disabled selected>Select the location you'd like to see</option>
             <option value="2">Kaunda Street</option>
             <option value="2">Muindi Mbingu Street</option>
@@ -40,13 +40,18 @@
             <option value="1">Banda Street</option>
             <option value="2">Standard Street</option>
           </select>
+          <button name='select-for-dropdown' id='selecter-button'>Select Area</button>
         </div>
         <div id='maps' class='row'>
-          <div class='col-md-6'>
-            <br><img src='../images/restricted-areas1.jpg' alt='Image of restricted areas around CBD' id='restricted1'>
-            <br><img src='../images/restricted-areas2.jpg' alt='Image of restricted areas around CBD' id='restricted2'>
+          <div class='col-md-7'>
+            <div id="ra1">
+              <br><img src='../images/restricted-areas1.jpg' alt='Image of restricted areas around CBD' id='restricted1'>
+            </div>
+            <div id="ra2">
+              <img src='../images/restricted-areas2.jpg' alt='Image of restricted areas around CBD' id='restricted2'>
+            </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5" id='ra3'>
             <br><img src='../images/overview-pic.jpg' alt='Image of overview of CBD' id='overview'>
           </div>
         </div>

@@ -61,12 +61,40 @@ img{
   margin-right:auto;
 }
 
-.col-md-6 img{
-  width:100%;
-  height:100%;
+.col-md-7 img{
+  width:80%;
+  height:80%;
   margin-top:auto;
+  padding-top:60px;
 }
 
-#maps{
+.col-md-5 img{
+  width:90%;
+  height:70%;
+  margin-top:auto;
+  padding-top:60px;
+}
+
+#selecter-button{
+  background-color:#E8E8E8;
+
+}
+
+#selecter-button:hover{
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:green;
+  color:white;
+  cursor:pointer;
+}
+
+#ra1{
+  display:none;
+}
+
+#ra2{
+  display:none;
+}
+
+#ra3{
   display:none;
 }
