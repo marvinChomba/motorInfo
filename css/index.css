@@ -167,4 +167,10 @@ input[type=text]:hover {
   .icon {
     left: 40%;
   }
+  h1 {
+    font-size: 40px;
+  }
+  #first p.lead {
+    font-size: 20px;
+  }
 }
