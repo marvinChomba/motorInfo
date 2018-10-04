@@ -5,6 +5,7 @@ body {
   background-image: url("../images/back.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
+
   background-clip: border-box;
   background-origin: border-box;
   background-repeat: no-repeat;
@@ -173,4 +174,15 @@ input[type=text]:hover {
   #first p.lead {
     font-size: 20px;
   }
+  body {
+  background-image: url("../images/back.jpg");
+  background-size: cover;
+  /* background-attachment: scroll; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
 }
