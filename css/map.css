@@ -1,0 +1,17 @@
+body{
+  font-family: 'Anton', sans-serif;
+  background-color: #FCF3CF ;
+  padding: 10px;
+}
+.col-md-6{
+  margin-bottom: 20px;
+}
+iframe{
+  box-shadow: 5px 10px 10px 5px grey;
+  border-radius: 5px;
+  transition: all .3s cubic-bezier( 0.645, 0.045, 0.355, 1);
+}
+iframe:hover{
+  box-shadow: 0 0 0 0;
+  margin-top: -5px;
+}

@@ -11,7 +11,7 @@ body{
   overflow: hidden;
 
   }
-  
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -66,17 +66,18 @@ body{
 
 .card{
   background-color:white;
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 2px 5px 10px 5px grey;
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-top: 1em;
   padding:30px;
 }
 
 h2 ol{
     transform: rotate(180deg);
 }
-h2 ol > li {
+h2 li {
     transform: rotate(-180deg);
 }
 
@@ -92,5 +93,5 @@ h2{
 
 h3{
   font-size:18px;
-  
+
 }
