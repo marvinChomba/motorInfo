@@ -4,8 +4,10 @@
 body {
   background-image: url("../images/back.jpg");
   background-size: cover;
-  background-position-y: -1em;
   background-repeat: no-repeat; 
+  background-clip: border-box;
+  background-origin: border-box;
+  background-repeat: no-repeat;
 }
 .icon {
   background: #4CAF50;
