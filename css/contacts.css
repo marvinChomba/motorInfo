@@ -1,15 +1,22 @@
+body{
+  background-color:aliceblue;
+}
+p{
+  font-size:large;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color:#000000;
   overflow: hidden;
-}
+
+  }
   
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 70px;
+  padding: 20px 50px;
   text-decoration: none;
   font-size: 17px;
   font-family: Lato, sans-serif;
@@ -27,11 +34,12 @@
   color: white;
 }
 
+
 .col{
   background-color: aliceblue;
 }
-.col-sm-5{
-  background-color:grey;
+.col-xs-5{
+  background-color:rgba(172, 168, 168, 0.692);
   position:relative;
   top:-100px;
 }
@@ -102,12 +110,12 @@ label{
 }
 .rating{
   position:relative;
-  left: 200px;
+  left: 100px;
 }
 .map{
   position:relative;
-  padding: 10px;
-  left:50px;
+  padding-left: 100px;
+  /* left:100px; */
   top:-100px;
   background-color: aliceblue;
 }
@@ -116,29 +124,83 @@ div .far{
   color:green;
   height:auto;
 }
+.form-group label{
+  font-size:large;
+  color:rgb(50, 180, 50);
+}
+#first{
+  position:relative;
+  top:100px;
+}
 .wrapper {
   display: inline-block;
   font-size: 70px;
 }
 .wrapper * {
   float: right;
+  color:grey;
 }
 input {
   display: none;
 }
 
 input:checked ~ label {
-  color:yellow;
+  color:orange;
 }
 @media only screen and (max-width:780px){
+  span{
+    display:none;
+  }
+  
   .map{
-    width:device-width;
+    /* display:none; */
     position:relative;
-    padding-top: 10px;
-    left:50px;
+    padding-left: 10px;
+  /* left:100px; */
     top:-100px;
-    background-color: aliceblue;
+  }
+  .map iframe{
+    /* display:none; */
+    width:device-width;
+    width:auto;
+    height:300px;
+  }
+  .rating{
+    position:relative;
+    left: 10px;
   }
 } 
-@media only screen and (min-width:480px){
+@media only screen and (max-width:480px){
+  #sidebar{
+    position:sticky;
+    width:50px;
+    bottom:0px;
+    z-index: 5;
+    display:flex;
+  }
+  #sidebar>.sidebar>ul{
+    flex-direction: column;
+  }
+  aside li{
+    /* margin-left:20px; */
+    position: relative;
+    left:0px;
+    display:inline-block;
+    width: 150px;
+    height: 40px;
+  }
+   ul li{
+    display:inline-block;
+  }
+  aside a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    transition: width 0s;
+    box-sizing: border-box;
+  }
 } 

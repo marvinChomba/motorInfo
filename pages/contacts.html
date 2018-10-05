@@ -10,24 +10,23 @@
   <title>Contact Us</title>`
 </head>
 <body>
-  <div class="sticky-top topnav">
-    <a href="#home">Home</a>
-    <a href="#parking">Parking Info</a>
-    <a href="#nduthi">Nduthi Restrictions</a>
-    <a href="#traffic-updates">Traffic Updates</a>
-    <a href="#driving-tips">Driving Tips</a>
-    <a class="active" href="#our-story">Our Story</a>
+  <div class="topnav sticky-top">
+    <a href='home-page.html'>Home</a>
+    <a href='parking.html'>Parking Info</a>
+    <a href='restrictions.html'>Nduthi Restrictions</a>
+    <a href="home-page.html#traffic1">Traffic Updates</a>
+    <a href="home-page.html#drivingt1">Road Safety</a>
+    <a href="about.html">About Us</a>
+    <a class="active" href="contacts.html">Contact Us</a>
   </div>
   <div class="container">
-    <h1 class="sticky">Contact Us</h1><br><br>
-    <div class="row">
-      <div class="col col-sm-6">
-        <img src="../images/Motor.jpg" alt="MotoInfoLogo" height="200" width="400"><br>
+    <div id="first" class="row">
+      <div class="col-sm-6">
         <h2>Your satisfaction, our pride!</h2>
         <p>Need our help?</p>
         <p>Please contact our customer service. We care.</p>
       </div>
-      <div class="rating">
+      <div class="col-xs-6 rating">
         <h3>Rate us:</h3>
         <div class="wrapper">
           <input type="radio" id="r1" name="rg1">
@@ -41,7 +40,12 @@
           <input type="radio" id="r5" name="rg1">
           <label for="r5">	&#8902;</label>
         </div>
-      </div>  
+        <h2>Nairobi Head Office</h2>
+        <ol>
+          <li>Mobile: <a href="tel:+254720132613">+254720132613</a></li>
+          <li>Email: <a href="mailto:roduor41@gmil.com">roduor41@gmil.com</a></li>
+        </ol>
+      </div> 
     </div>
   </div>
   <div id="sidebar" class=" col-sm-2">
@@ -77,28 +81,29 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-md-6 col-lg-6 col-sm-6 col-xs-5">
         <h3>We value you.</h3>
         <p>Please help us improve.Give us your feedback.</p>
         <form method="post" action="https://formspree.io/roduor41@gmail.com">
           <div class="form-group">
             <label id="required" for="name">Name</label>
-            <input class="form-control" type="text" placeholder="Enter your name" required>
+            <input class="form-control" type="text" placeholder="Enter your name" name="name" required>
           </div>
           <div class="form-group">
             <label id="required" for="email">Email</label>
-            <input class="form-control" type="email" placeholder="Enter your Email" required>
+            <input class="form-control" type="email" placeholder="Enter your Email" name="email" required>
           </div>
           <div class="form-group">
             <label for="feedback">Feedback</label>
-            <textarea class="form-control" placeholder="Your response" cols="0" rows="5"></textarea>
+            <textarea class="form-control" name="feedback" placeholder="Your response" cols="0" rows="5"></textarea>
           </div>
-          <button class="btn btn-info">Submit</button>
+          <button class="btn btn-success">Submit</button>
         </form>
       </div>
-      <div class="map">
+      <div class="clearfix"></div>
+      <div class="col-md-6 col-lg-6 col-sm-6 map">
         <h3>Our Location</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7905832736446!2d36.78241851487528!3d-1.3005031360089527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa+School!5e0!3m2!1sen!2ske!4v1538487348105" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7905832736446!2d36.78241851487528!3d-1.3005031360089527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa+School!5e0!3m2!1sen!2ske!4v1538487348105" width="400" height="350" frameborder="0" style="border:0"></iframe>
       </div>
     </div>
   </div>
