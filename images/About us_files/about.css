@@ -8,20 +8,6 @@ body {
 background-image: url("beautiful-color-ui-gradients-backgrounds-50-shades-of-grey");
 background-color: #cccccc;
 }
-.cont1{
-  text-align: center;
-  background-color: #2ecc71;
-  padding: 10px;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border-radius: 5px;
-  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
-
-}
-.cont1:hover{
-  box-shadow: 5px 10px 10px 5px grey;
-
-}
 #image {
   min-height: 100%;
   background-position: center;
@@ -35,11 +21,11 @@ background-color: #cccccc;
 }
 .dropdown{
     position: sticky;
-    margin-left: 100px;
 }
 .container img{
 
 }
+
 
 h1{
     text-align: center;
@@ -51,9 +37,6 @@ h2{
 
 p{
 
-}
-li{
-  list-style: none;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -95,7 +78,6 @@ li{
 .dropdown {
     position: relative;
     display: inline-block;
-    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .dropdown-content {
