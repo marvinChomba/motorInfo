@@ -73,7 +73,7 @@ After cloning,
 - If everything is OK. push your changes and make a pull request. 
 ------------------------------------------------------------------------
 ### Link to our app 
-[MotorInfo](https://rkatana.github.io/motorInfo/)
+[MotorInfo](https://marvinchomba.github.io/motorInfo/)
 
 ------------------------------------------------------------------------
 ## License ([MIT License](http://choosealicense.com/licenses/mit/))
